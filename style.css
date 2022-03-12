@@ -52,7 +52,7 @@
 }
 /*===============================main section=============================*/
 .main{
-    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)), url(./images/img1.jpg)no-repeat;
+    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)), url(img1.jpg)no-repeat;
     background-size: cover;
     min-height: 95vh;
     width: 100%;
@@ -280,7 +280,7 @@
 
 /*====================resume=====================*/
 .resume{
-    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)) ,url(./images/img12.jpg) no-repeat;
+    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)) ,url(img12.jpg) no-repeat;
     background-size: cover;
     height: 44.125rem;
     width: 100%;
@@ -338,7 +338,7 @@
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
   .resume{
-    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)) ,url(./images/img12.jpg) no-repeat;
+    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)) ,url(img12.jpg) no-repeat;
     background-size: cover;
     height: 44.125rem;
     width: 100%;
