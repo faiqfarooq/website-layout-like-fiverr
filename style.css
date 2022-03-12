@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: #FF6347;
+    font-family: 'Pacifico', cursive;
+}
+.nav-link{
+    color: #3e3e3e;
+}
+.nav-link:hover{
+    color: #FF6347;
+    transition: 0.3s;
+}
+.nav-item{
+    color: #4169E1;
+    font-weight: 500;
+    padding-left: 35px;
+}
+.register-button{
+    height: 52px;
+    width: 130px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: #FF6347;
+}
+.register-button:hover{
+    background-color: #FF4500;
+    transition: 00.4s;
+}
+.signin-button{
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    border: 2px #FF6347 solid;
+    outline: none;
+    transition: all 0.4s;
+
+}
+.signin-button:hover{
+    background-color: #FF6347;
+    transition: all 0.4s;
+    color: white;
+    outline: none;
+    border: none;
+}
+/*===============================main section=============================*/
+.main{
+    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)), url(./images/img1.jpg)no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 3.8rem;
+    font-weight: 800;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+  
+    
+}
+.main p{
+    font-size: 1.8rem;
+    color: rgb(248, 248, 117);
+    font-family: 'Permanent Marker', cursive;
+
+}
+.main input{
+    font-size: large;
+    height: 70px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.find-job{
+    height: 70px;
+    width: 25%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color:transparent;
+    border: 1px #FF6347 solid;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+ 
+    color: white;
+}
+.find-job:hover{
+    background-color: #FF6347;
+    transition: all 0.4s;
+}
+
+
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 21em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 20em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 13.7em;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+
+
+
+  
+/*====================================create category==================================*/
+.red{
+    color: #FF4500;
+}
+.category h1{
+    font-size: 3.5rem;
+    color: #3e3e3e;
+}
+.category .card{
+    
+    transition: all 0.4s;
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.75);
+}
+.category .card:hover{
+    color: #FF6347;
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 2;
+    transition: all 0.4s;
+    box-shadow: 0px 0px 33px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 33px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 33px -5px rgba(0,0,0,0.75);
+}
+.button-more{
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 70px;
+    width: 70%;
+    background: transparent;
+    border: 1px #708090 solid;
+    border-radius: 5px;
+    color: #FF6347;
+    transition: all 0.4s;
+}
+.button-more:hover{
+    color: white;
+    border-radius: 5px;
+    background-color: #FF6347;
+    transition: all 0.4s;
+}
+.category img{
+    height: 50px;
+    
+}
+
+/*====================resume=====================*/
+.resume{
+    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)) ,url(./images/img12.jpg) no-repeat;
+    background-size: cover;
+    height: 44.125rem;
+    width: 100%;
+}
+.resume h1{
+    font-size: 3.8rem;
+}
+
+.choose{
+
+}
+.choose-1{
+  text-align: right;
+  font-size: 1.2rem;
+}
+.choose-2{
+  text-align: left;
+  font-size: 1.2rem;
+}
+.choose-3{
+  font-size: 1.2rem;
+}
+
+/*====================payment======================*/
+.agreement{
+  background-color: #e6dcd5;
+  height: 44.125rem;
+    width: 100%;
+}
+.pay-img{
+    height: 342px;
+  width: 480px;
+}
+
+.accordion-button{
+  background-color: #e6dcd5;
+  border:1px #3e3e3e solid ;
+  
+}
+
+
+/*======================media queries====================*/
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  .resume{
+    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)) ,url(./images/img12.jpg) no-repeat;
+    background-size: cover;
+    height: 44.125rem;
+    width: 100%;
+}
+.resume h1{
+    font-size: 2rem;
+}
+
+.choose{
+
+}
+.choose-1{
+  text-align: right;
+  font-size: .8rem;
+}
+.choose-2{
+  text-align: left;
+  font-size: 0.8rem;
+}
+.choose-3{
+  font-size: 0.8rem;
+}
+.agreement{
+  background-color: #e6dcd5;
+  height: auto;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 50%;}
+  .col-6 {width: 60%;}
+  .col-7 {width: 62%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
